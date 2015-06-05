@@ -128,6 +128,7 @@ def get_mps():
         
     return mps, first_names, last_names, full_names, party_affiliation
 
+mps, first_names, last_names, full_names, party_affiliation = get_mps()
 
 tops = find_tops(content)
 
@@ -140,16 +141,97 @@ tops_frame = tops_frame.dropna()
 tops_frame = tops_frame.sort('beginning')
 tops_frame = tops_frame.drop_duplicates(subset = 'beginning')
 
-admin_staff = ["Norbert Lammert", "Ulla Schmidt", "Petra Pau", "Johannes Singhammer", ]
+admin_staff = ["Präsident Dr. Norbert Lammert", "Vizepräsidentin Ulla Schmidt", "Vizepräsidentin Petra Pau", "Vizepräsident Johannes Singhammer", "Vizepräsidentin Edelgard Bulmahn" ]
 tops_frame.iloc[:,1 ] = tops_frame.iloc[:,1].astype(int)
 
 begin_speeches = []
+speakers = []
 for i in range(0, len(tops_frame.iloc[:,1])-1):
     top_content = protocol[tops_frame.iloc[i,1]:tops_frame.iloc[(i+1),1]]
     for full_name in full_names:
         if re.search(full_name + ".*?" + ":\r\n", top_content) and full_name not in admin_staff :
-            print full_name
             begin_speech = re.search(full_name + ".*?" + ":\r\n", top_content).end() + tops_frame.iloc[i,1]
             begin_speeches.append(begin_speech)
+            speakers.append(full_name)
             
+            
+begin_speeches_mps = pd.DataFrame({'speaker':speakers, 'beginning':begin_speeches})
+
+begin_speeches_mps = begin_speeches_mps.sort('beginning')
+
+speeches =  []
+speakers = []
+for i in range(0, begin_speeches_mps.shape[0]-1):
+    speech = ""
+    snippet = protocol[begin_speeches_mps.iloc[i,0]:begin_speeches_mps.iloc[i+1,0]]
+    speaker = begin_speeches_mps.iloc[i,1]
+    paragraphs_raw = re.split(r'\r\n', snippet)
+    paragraphs = []
+    for i in range(0, len(paragraphs_raw)):
+        if len(paragraphs_raw[i]) > 0:
+            paragraphs.append(paragraphs_raw[i])
+    for i in range(0, len(paragraphs)-3):
+        terminal_condition = False
+        append_paragraph = False 
+        print i
+        for admin in admin_staff:
+            print admin
+            if  re.match(admin, paragraphs[i]) and re.match(".*?" + speaker, paragraphs[i+1]) == None and re.match(".*?" + speaker, paragraphs[i+2]) == None and re.match(".*?" + speaker, paragraphs[i+3]) == None:
+                terminal_condition = True
+                print "1"
+                break
+            elif re.match(admin, paragraphs[i]) and re.match(".*?" + speaker, paragraphs[i+1]) != None:
+                print "2"
+                break
+            elif re.match(admin, paragraphs[i]) == None and paragraphs[i][0:2] != " ("  and paragraphs[i][0] != "(":
+                append_paragraph = True
+                print "3"
+                
+            else:
+                print "4"
+                break
+        if terminal_condition == False and append_paragraph == True:
+            speech = speech + paragraphs[i]
+        elif terminal_condition == True :
+            break
+        
+    speeches.append(speech)
+    speakers.append(speaker)
+
+
+def find_speeches(begin_speeches_mps, admin_staff, protocol):
+    speeches = []
+    speakers = []
+    for i in range(0, begin_speeches_mps.shape[0]-1):
+        speech = ""
+        snippet = protocol[begin_speeches_mps.iloc[i,0]:begin_speeches_mps.iloc[i+1,0]]
+        speaker = begin_speeches_mps.iloc[i,1]
+        paragraphs_raw = re.split(r'\r\n', snippet)
+        paragraphs = []
+        for i in range(0, len(paragraphs_raw)):
+            if len(paragraphs_raw[i]) > 0:
+                paragraphs.append(paragraphs_raw[i])
+        for i in range(0, len(paragraphs)-3):
+            terminal_condition = False
+            append_paragraph = False 
+            for admin in admin_staff:
+                if  re.match(admin, paragraphs[i]) and re.match(".*?" + speaker, paragraphs[i+1]) == None and re.match(".*?" + speaker, paragraphs[i+2]) == None and re.match(".*?" + speaker, paragraphs[i+3]) == None:
+                    terminal_condition = True
+                    break
+                elif re.match(admin, paragraphs[i]) and re.match(".*?" + speaker, paragraphs[i+1]) != None:
+                    break
+                elif re.match(admin, paragraphs[i]) == None and paragraphs[i][0:2] != " ("  and paragraphs[i][0] != "(":
+                    append_paragraph = True
+                
+                else:
+                    break
+            if terminal_condition == False and append_paragraph == True:
+                speech = speech + paragraphs[i]
+            elif terminal_condition == True :
+                break
+        
+        speeches.append(speech)
+        speakers.append(speaker)
+    return speakers, speeches
     
+        
