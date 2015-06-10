@@ -1,0 +1,1167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="de" xml:lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="de" http-equiv="language"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="Deutscher Bundestag" name="publisher"/>
+<meta content="Deutscher Bundestag" name="copyright"/>
+<meta content="7" name="revisit"/>
+<meta content="all" name="audience"/>
+<meta content="index, follow" name="robots"/>
+<meta content=", " name="keywords"/>
+<meta content="" name="description"/>
+<meta content="Mediathek" name="WT.ti"/>
+<link href="/blob/268162/e8bddff8373827cfc66609ca9697a45d/homepage-favicon.ico" rel="shortcut icon"/>
+<link href="/resources/271192/0/332708382/mediathek.css" rel="stylesheet" type="text/css"/><!--[if IE 6]>
+  <link rel="stylesheet" type="text/css" href="/resources/13218/13/rahmenie6.css"/>
+  <![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/resources/13274/13/rahmenie7.css"/>
+  <![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/resources/13216/13/rahmenie8.css"/>
+  <![endif]-->
+<!--[if IE 9]>
+  <link rel="stylesheet" type="text/css" href="/resources/13198/13/rahmenie9.css"/>
+  <![endif]-->
+<!--[if IE 6]>
+  <link rel="stylesheet" type="text/css" href="/resources/13210/17/inhaltie6.css"/>
+  <![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/resources/13256/18/inhaltie7.css"/>
+  <![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/resources/13272/16/inhaltie8.css"/>
+  <![endif]-->
+<!--[if IE 9]>
+  <link rel="stylesheet" type="text/css" href="/resources/13242/16/inhaltie9.css"/>
+  <![endif]-->
+<link href="/resources/13244/12/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="https://www.bundestag.de/apps/styleswitcher/custom.css" media="screen, projection" rel="stylesheet" type="text/css"/><script src="/resources/271192/0/1118777978/mediathek.js" type="text/javascript"></script>
+<title>Deutscher Bundestag - Mediathek</title>
+</head>
+<body>
+<!-- Piwik -->
+<script type="text/javascript">
+        var _paq = _paq || [];
+		_paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['trackAllContentImpressions']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//statistik.bundestag.de/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+<noscript><p><img alt="" src="//statistik.bundestag.de/piwik.php?idsite=1&amp;rec=1" style="border:0;"/></p></noscript>
+<!-- End Piwik Code -->
+<a name="top"></a>
+<div id="wrap">
+<a class="skip" href="#inhalt">Direkt zum Inhalt springen</a>
+<a class="skip" href="http://m.bundestag.de">Mobile Webseite des Bundestages</a>
+<div id="serviceLeiste">
+<div class="navigation">
+<h1 class="hidden">Service-Navigation</h1>
+<h2 class="hidden">Sprache ändern</h2>
+<ul class="sprache">
+<li class="gebaerdensprache"><a href="/gebaerdensprache">Gebärdensprache</a></li>
+<li><a href="/leichte_sprache">Leichte Sprache</a></li>
+<li><a href="/htdocs_e">English</a></li>
+<li><a href="/htdocs_f">Français</a></li>
+<li><a href="/ar"><img alt="al-arabiyya" class="" src="/blob/271578/8d2301b24f33bf03e9e93fb81330bfd7/ar_logo-data.gif"/></a></li>
+</ul>
+<h2 class="hidden">Service-Link</h2>
+<ul class="service">
+<li><a href="/service/hilfe">Hilfe</a></li><li><a href="/service/sitemap">Inhaltsübersicht</a></li><li><a href="/service/kontakt">Kontakt</a></li></ul>
+</div>
+<div class="ecke"> </div>
+</div>
+<div id="bildLeiste">
+<div class="logo"><a href="/" title="Startseite"><img alt="Bildwortmarke: Deutscher Bundestag" class="" src="/blob/12770/d0cef168c20996e8ddfc994e3c5a9d0f/logo_bundestag-jpg-data.jpg"/></a></div>
+<div class="banner"> </div>
+<div class="schnellsuche">
+<form action="http://suche.bundestag.de/search_bt.do" method="get">
+<input name="resultsPerPage" type="hidden" value="10"/>
+<input name="language" type="hidden" value="de"/>
+<label class="hidden" for="form_schnellsuche">Suche</label>
+<input class="input" id="form_schnellsuche" name="queryAll" type="text" value=""/>
+<input alt="Suche abschicken" class="submit" name="Suche abschicken" src="/blob/13112/bad38c69a65c080e4c3192e4dd64aba9/schnellsuche_submit-gif-data.gif" type="image" value="Suche abschicken"/>
+</form>
+</div>
+</div>
+<br class="clear ohneAbstaende"/>
+<div id="hauptNavigation">
+<h1 class="hidden">Hauptnavigation</h1>
+<ul class="navigation">
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li>
+<div>
+<div>
+<a class="ersteEbene" href="/bundestag">Der Bundestag<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</div>
+</div>
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+<li class="first">
+<div>
+<a href="/bundestag" title="">
+                Übersicht<span class="unsichtbar">Der Bundestag</span>
+</a>
+</div>
+</li>
+<li>
+<a href="/bundestag/aufgaben">Aufgaben</a>
+</li>
+<li>
+<a href="/abgeordnete">Abgeordnete</a>
+</li>
+<li>
+<a href="/bundestag/plenum">Plenum</a>
+</li>
+<li>
+<a href="/ausschuesse">Ausschüsse</a>
+</li>
+<li>
+<a href="/bundestag/gremien18">Weitere Gremien</a>
+</li>
+<li>
+<a href="/bundestag/praesidium">Präsidium</a>
+</li>
+<li>
+<a href="/bundestag/aeltestenrat">Ältestenrat</a>
+</li>
+<li>
+<a href="/bundestag/fraktionen">Fraktionen</a>
+</li>
+<li>
+<a href="/bundestagswahl">Wahlen</a>
+</li>
+<li>
+<a href="/internationales">Europa und Internationales</a>
+</li>
+<li>
+<a href="https://epetitionen.bundestag.de/">Petitionen</a>
+</li>
+<li>
+<a href="/bundestag/wehrbeauftragter">Wehrbeauftragter</a>
+</li>
+<li>
+<a href="/parteienfinanzierung">Parteienfinanzierung</a>
+</li>
+<li>
+<a href="/bundestag/verwaltung">Verwaltung</a>
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li>
+<div>
+<div>
+<a class="ersteEbene" href="/dokumente">Dokumente<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</div>
+</div>
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+<li class="first">
+<div>
+<a href="/dokumente" title="">
+                Übersicht<span class="unsichtbar">Dokumente</span>
+</a>
+</div>
+</li>
+<li>
+<a href="/tagesordnung">Tagesordnungen</a>
+</li>
+<li>
+<a href="/drs">Drucksachen</a>
+</li>
+<li>
+<a href="/protokolle">Protokolle</a>
+</li>
+<li>
+<a href="http://dipbt.bundestag.de/dip21.web/bt">Dokumentations- und Informationssystem (DIP)</a>
+</li>
+<li>
+<a href="/parlamentsdokumentation">Parlamentsdokumentation</a>
+</li>
+<li>
+<a href="/analysen">Fachinformationen und Analysen</a>
+</li>
+<li>
+<a href="/dokumente/parlamentsarchiv">Parlamentsarchiv</a>
+</li>
+<li>
+<a href="/datenhandbuch">Datenhandbuch</a>
+</li>
+<li>
+<a href="/dokumente/bibliothek">Bibliothek</a>
+</li>
+<li>
+<a href="/dokumente/textarchiv">Web- und Textarchiv</a>
+</li>
+<li>
+<a href="/dokumente/lobbyliste">Registrierte Verbände</a>
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li class="aktiv">
+<div>
+<div>
+<span class="keinMenu">
+<a class="ersteEbene" href="/mediathek">Mediathek<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</span>
+</div>
+</div>
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li>
+<div>
+<div>
+<a class="ersteEbene" href="/kulturundgeschichte">Kultur &amp; Geschichte<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</div>
+</div>
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+<li class="first">
+<div>
+<a href="/kulturundgeschichte" title="">
+                Übersicht<span class="unsichtbar">Kultur &amp; Geschichte</span>
+</a>
+</div>
+</li>
+<li>
+<a href="/kulturundgeschichte/ausstellungen">Ausstellungen</a>
+</li>
+<li>
+<a href="/architektur">Architektur</a>
+</li>
+<li>
+<a href="/kunst">Kunst im Bundestag</a>
+</li>
+<li>
+<a href="/kulturundgeschichte/geschichte">Geschichte</a>
+</li>
+<li>
+<a href="/staatliche_symbole">Staatliche Symbole</a>
+</li>
+<li>
+<a href="/parlamentspreise">Parlamentspreise</a>
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li>
+<div>
+<div>
+<a class="ersteEbene" href="/presse">Presse<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</div>
+</div>
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+<li class="first">
+<div>
+<a href="/presse" title="">
+                Übersicht<span class="unsichtbar">Presse</span>
+</a>
+</div>
+</li>
+<li>
+<a href="/presse/pressemitteilungen">Pressemitteilungen</a>
+</li>
+<li>
+<a href="/hib">Aktuelle Meldungen (hib)</a>
+</li>
+<li>
+<a href="/akkreditierung">Akkreditierung</a>
+</li>
+<li>
+<a href="/presse/terminsuche">Termine</a>
+</li>
+<li>
+<a href="http://bilderdienst.bundestag.de">Bilderdienst, Bildarchiv</a>
+</li>
+<li>
+<a href="/mediathek/parlamentstv/mitschnittservice">Mitschnittservice</a>
+</li>
+<li>
+<a href="/presse/pressedokumentation">Pressedokumentation</a>
+</li>
+<li>
+<a href="/presse/ansprechpartner">Kontakt</a>
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li>
+<div>
+<div>
+<a class="ersteEbene" href="/besucher">Besuchen Sie uns<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</div>
+</div>
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+<li class="first">
+<div>
+<a href="/besucher" title="">
+                Übersicht<span class="unsichtbar">Besuchen Sie uns</span>
+</a>
+</div>
+</li>
+<li>
+<a href="/besuche/kuppel-dachterrasseunddachgartenrestaurant">Kuppel, Dachterrasse und Dachgartenrestaurant</a>
+</li>
+<li>
+<a href="/besuche/fuehrungen">Führungen und Vorträge</a>
+</li>
+<li>
+<a href="/besuche/besucheinerplenarsitzung">Besuch einer Plenarsitzung</a>
+</li>
+<li>
+<a href="/besuche/besuchaufeinladungeinesabgeordneten">Einladung durch Abgeordnete</a>
+</li>
+<li>
+<a href="/besuche/kinderundjugendliche">Angebote für Kinder und Jugendliche</a>
+</li>
+<li>
+<a href="/besuche/ausstellungen1">Ausstellungen</a>
+</li>
+<li>
+<a href="/unterwegs">Bundestag in Ihrer Nähe</a>
+</li>
+<li>
+<a href="https://visite.bundestag.de/BAPWeb/pages/createBookingRequest.jsf">Online-Anmeldung</a>
+</li>
+<li>
+<a href="/tea">Tag der offenen Tür</a>
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+<li>
+<div>
+<div>
+<a class="ersteEbene" href="/service">Service<!--[if gte IE 7]><!--></a><!--<![endif]-->
+</div>
+</div>
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+<li class="first">
+<div>
+<a href="/service" title="">
+                Übersicht<span class="unsichtbar">Service</span>
+</a>
+</div>
+</li>
+<li>
+<a href="/service/glossar">A - Z</a>
+</li>
+<li>
+<a href="/service/faq">Häufig gestellte Fragen</a>
+</li>
+<li>
+<a href="/service/steckbrief">Steckbrief</a>
+</li>
+<li>
+<a href="/service/quiz">Das Quiz zum Deutschen Bundestag</a>
+</li>
+<li>
+<a href="https://www.btg-bestellservice.de/">Informationsmaterial bestellen</a>
+</li>
+<li>
+<a href="/btnewsletter">Newsletter</a>
+</li>
+<li>
+<a href="/rss">RSS</a>
+</li>
+<li>
+<a href="/ausschreibung">Öffentliche Ausschreibungen</a>
+</li>
+<li>
+<a href="/jobs">Stellenangebote</a>
+</li>
+<li>
+<a href="/ausbildung">Ausbildung</a>
+</li>
+<li>
+<a href="/service/formulare_index">Formulare und Anträge</a>
+</li>
+<li>
+<a href="/service/tms_index">Parlamentsbegriffe Deutsch, Englisch, Französisch, Spanisch</a>
+</li>
+<li>
+<a href="/service/links">Links</a>
+</li>
+<li>
+<a href="/service/kontakt">Kontakt</a>
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<!-- CMChannel.asCommonTopNavLvl1.jsp -->
+</ul>
+</div>
+<br class="clear"/>
+<div id="ohneContext">
+<div id="zierElemente">
+<div class="zierLinks"> </div>
+<div class="zierMitte"> </div>
+<div class="zierRechts"> </div>
+</div>
+<br class="clear ohneAbstaende"/><div class="clearFix" id="wrapperLinks">
+<div class="clearFix" id="wrapperRechts">
+<div id="container">
+<div id="navigation">
+<h1 class="hidden">Navigationsbereich</h1>
+<div class="navigationBox">
+<div id="navigationMenu">
+<ul>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/mediathek/?action=tv&amp;categorie=Jetzt im Parlamentsfernsehen">Jetzt im Parlamentsfernsehen</a></div>
+</li>
+<li class="noSub">
+<div class="aktiv">
+<strong>
+<a href="http://www.bundestag.de/apps/url/mediathek/plenarsitzungen">Plenarsitzungen</a></strong>
+</div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/apps/url/mediathek/ausschusssitzungen">Ausschusssitzungen</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/apps/url/mediathek/wissenschaftsforen">Wissenschaftsforen</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/apps/url/mediathek/sonderveranstaltungen">Sonderveranstaltungen</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/apps/url/mediathek/interviews">Interviews</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/mediathek/?categorie=Kurzbeitr%C3%A4ge&amp;action=search&amp;mask=search&amp;contentArea=common&amp;instance=m187">Kurzbeiträge</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/apps/url/mediathek/reportagen">Reportagen</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="http://www.bundestag.de/apps/url/mediathek/bundestags-abc">Bundestags-ABC</a></div>
+</li>
+<li class="noSub">
+<div>
+<a href="/tv">Das Parlamentsfernsehen</a></div>
+</li></ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="navigationBox">
+<ul class="serviceBannerNavi">
+<li style="padding-bottom:0;"></li>
+<li>
+<a href="http://www.das-parlament.de" target="_blank">
+<img alt="" src="/blob/271292/438370f66e9de6fcaebc566f28c2943b/parlament-data.jpg"/></a>
+</li><li>
+<a href="http://www.mitmischen.de" target="_blank">
+<img alt="Mitmischen - Das Jugendportal des Deutschen Bundestages" src="/blob/271582/39ca5c25d5b29fd69587fbb3907d343d/mitmischen-data.jpg"/></a>
+</li><li>
+<a href="http://webarchiv.bundestag.de" target="_blank">
+<img alt="Webarchiv" src="/blob/271580/4c330d7240a59725eb72b84f0f6019b3/webarchiv-data.jpg"/></a>
+</li></ul>
+</div>
+</div>
+<div id="inhaltsbereich">
+<a name="inhalt"></a>
+<div id="breadcrumb">
+<div class="content">
+<p class="keinAbstand">
+<span class="hide">Navigationspfad:</span>
+<a href="/">Startseite</a>
+</p>
+</div>
+</div><div class="inhalt">
+<script src="/static/appdata/includes/js/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="/static/appdata/includes/js/prefs.js" type="text/javascript"></script>
+<div id="mediathek">
+<div class="mediathekHeader">
+<script src="http://webtv.bundestag.de/iptv/player/macros/_v_f_500_de/_s_live_new/_x_s-144277506/xflv/showItSimple.js" type="text/javascript"></script>
+<div class="mediathekHeaderTitel">
+<h1> Plenarsitzungen        </h1>
+</div>
+<div class="mediathekSchalterReihe">
+<div class="mediathekHeaderSchalter mediathekHeaderSchalterNeu">
+<a href="?"><img alt="" src="http://www.bundestag.de/static/appdata/includes/images/mediathek/startseite_neu"/><strong>Startseite</strong></a></div>
+<div class="mediathekHeaderSchalter mediathekHeaderSchalterNeu">
+<a href="?action=tv&amp;categorie=Jetzt%20im%20Parlamentsfernsehen" title="Aufruf des aktuellen Programms des Parlamentsfernsehens">
+<img alt="" src="http://www.bundestag.de/static/appdata/includes/images/mediathek/live"/><strong>Live</strong>
+</a>
+</div>
+<div class="mediathekHeaderSchalter mediathekHeaderSchalterNeu"><a href="?mview=asearch&amp;action=asearch">
+<img alt="" src="http://www.bundestag.de/static/appdata/includes/images/mediathek/suche"/>
+<strong>Suche</strong></a></div>
+</div></div><!-- div geht in jsp auf -->
+<br class="clear"/><div class="mediathekBorder"> </div>
+<div class="mediathekSchattenOben"> </div>
+<div id="mediathekDetails">
+<div class="mediathekVideobox">
+<div class="mediathekVideo">
+<div class="mediathekVideoEmbed">
+<script src="https://webtv.bundestag.de/player/macros/_s_od_new_sec/_x_s-144277506/xflv/showItSimple.js" type="text/javascript"></script>
+<div id="showItContainerOd"></div>
+<script type="text/javascript">
+    /*<![CDATA[ */
+    var showItOd = new ShowIt('showItOd', 0, 0, 475, 297,true, null, 'AS3');
+    showItOd.autoplay = false;
+    showItOd.setWmode('opaque');
+    showItOd.setContent(5111889);
+    showItOd.insertIntoElement('showItContainerOd', 475, 267, true);
+        /* ]]> */
+    </script>
+<noscript>
+<object data="https://webtv.bundestag.de/iptv/swf/xflv/showIt3.swf" height="297" id="showIt37993607" style="width: 475px; height: 297px;" type="application/x-shockwave-flash" width="475">
+<param name="movie" value="https://webtv.bundestag.de/iptv/swf/xflv/showIt3.swf"></param>
+<param name="menu" value="true"></param>
+<param name="quality" value="high"></param>
+<param name="wmode" value="opaque"></param>
+<param name="swliveconnect" value="true"></param>
+<param name="allowscriptaccess" value="always"></param>
+<param name="scalemode" value="showall"></param>
+<param name="allowfullscreen" value="true"></param>
+<param name="flashvars" value="plugin_version=9.0.115&amp;bandwidth=514&amp;xasxTemplate=xasx_od.xml&amp;autoPlay=false&amp;skin=od_new&amp;application=144277506&amp;playerLink=http://webtv.bundestag.de/iptv/player/macros/_x_s-144277506/od_player.html&amp;baseUrl=http://iptv.cdn.tv1.de/iptv/player/macros&amp;params=?r=r$contentId=5111889$singleton=true$forcedWidth=475$forcedHeight=267$keepVideoAspectRatio=true&amp;language=de&amp;debug=true&amp;jsEnabled=true"></param>
+</object>
+</noscript>
+</div>
+</div>
+<div class="mediathekVideoInterakt mediathekVideoInteraktNeu">
+<div class="mediathekTrennlinie"></div>
+<ul class="mediathekInteraktLinks">
+<li><a class="kurzUrl" href="http://dbtg.tv/fvid/5111889" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5111889">Permalink: <br/>http://dbtg.tv/fvid/5111889</a></li>
+<li><a class="kurzUrl" href="javascript:void(0);copyInit()" id="copyCode">Video einbetten </a>
+<noscript>
+<form action="" method="post">
+<textarea cols="10" readonly="readonly" rows="5">&lt;script id="tv15111889" type="text/javascript" src="http://webtv.bundestag.de/player/macros/bttv/player.js?content=5111889&amp;phi=default"&gt;&lt;/script&gt;</textarea>
+</form>
+</noscript>
+<div class="mediathekKopieBox none"><p class="copyDescription">Fügen Sie den nachfolgenden Kode in Ihre HTML-Seite ein, um das Video gem&amp;auml;&amp;szlig; den Nutzungsbedingungen des Deutschen Bundestages auf Ihrer Webseite zu verwenden: </p><div id="copyText">
+  &lt;script id="tv15111889" type="text/javascript" src="http://webtv.bundestag.de/player/macros/bttv/player.js?content=5111889&amp;phi=default"&gt;&lt;/script&gt;</div>
+<form action="">
+<input class="mediathekKopieBoxCopySubmit" id="copyButton" type="button" value="In die Zwischenablage kopieren"/>
+<input class="mediathekKopieBoxSubmit" type="submit" value="Schließen"/>
+</form>
+</div> </li>
+</ul>
+<div class="mediathekTrennlinie"></div>
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastLeftView linkPodcast" href="">Podcast</a>
+</li>
+<li><a class="downloadLeftView linkDownload" href="?id=5111889&amp;offsetStart=0&amp;contentArea=details&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;action=search&amp;downloadConfirm=true#mediathekCookieJava">Download</a></li>
+<li class="pdf"><a class="linkGeneric" href="http://dipbt.bundestag.de/dip21/btp/18/18106.pdf#P.10033" target="_blank" title="Link zur PDF-Version des Plenarprotokolls öffnet sich in neuem Fenster">Fundstelle im Plenarprotokoll</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="data_5111889">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111889/5111889_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111889/5111889_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111889/5111889_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+<div class="mediathekTrennlinie"></div>
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new">Nutzungsbedingungen</a></li><li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new">Conditions of use</a></li></ul>
+</div>
+<script src="http://www.bundestag.de/static/appdata/includes/js/ZeroClipboard.js" type="text/javascript"></script>
+<script type="text/javascript">
+  <!-- 
+    var clip = null;
+    
+    function copyInit() {
+      clip = new ZeroClipboard.Client();
+      clip.setHandCursor( true );
+    
+      clip.addEventListener('mouseOver', function (client) {
+        // update the text on mouse over
+        text = document.getElementById('copyText').innerHTML;
+        text = text.replace(/\&amp;/g,'&');
+        text = text.replace(/\&lt;/g,'<');
+        text = text.replace(/\&gt;/g,'>');
+        clip.setText(text);
+      });
+      
+      clip.glue( 'copyButton' );
+    }
+    //-->
+</script> <br class="clear"/> <br class="clear"/>
+<div class="mediathekVideoText">
+<h2><span class="datum"> 18. Wahlperiode   </span><br/> 106. Sitzung vom 21.05.2015 </h2>
+<div><p>Gesamtaufnahme der Plenarsitzung </p></div>
+<br class="clear"/>
+</div>
+</div>
+</div>
+<div class="mediathekConfirm none" id="downloadBox" style="top: 73em; left: 40em;">
+<div class="confirmContent" id="confirm">
+<form action="" id="yes" method="post">
+<input name="downloadConfirmYes" type="hidden" value="true"/>
+<input name="downloadConfirm" type="hidden" value="true"/>
+<div class="downloadurl">
+<input id="form_dl_video" name="downloadType" type="radio" value="mp4"/><label for="form_dl_video">Video (MP4)<span class="hidden"> zum Download auswählen </span></label>
+<br class="clear"/>
+</div>
+<div class="downloadstereourl">
+<input id="form_dl_audiostereo" name="downloadType" type="radio" value="stereo"/><label for="form_dl_audiostereo">Audio (MP3, Stereo)<span class="hidden"> zum Download auswählen </span></label>
+<br class="clear"/>
+</div>
+<div class="downloadmonourl">
+<input id="form_dl_audiomono" name="downloadType" type="radio" value="mono"/><label for="form_dl_audiomono">Audio (MP3, Mono)<span class="hidden"> zum Download auswählen </span></label>
+<br class="clear"/>
+</div>
+<p>Sehr geehrte Nutzerinnen und Nutzer, bitte bestätigen Sie vor dem Download des gewünschten Videos, dass Sie unseren Nutzungsbedingungen zustimmen. Ohne die Zustimmung ist der Download des Videoclips leider nicht möglich.</p>
+<p><a class="linkIntern" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a> <a class="linkIntern" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></p>
+<input class="submit" name="submit" type="submit" value="Ja und herunterladen "/>
+</form>
+<div class="confirmNein"><a href="javascript:void(0);" id="no">Nein  </a></div>
+</div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> <div class="mediathekConfirm none" id="podcastBox">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5111889" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div>
+<div class="mediathekVL">
+<div class="mediathekVLHeader">
+<div class="mediathekVLHeaderTitel"><h2>27 Suchergebnisse</h2></div>
+<div class="mediathekSucheAufklappen"><a href="?instance=m187&amp;mview=plenarsitzungen&amp;action=plenarsitzungen&amp;categorie=Plenarsitzung">Neue Suche</a></div>
+</div>
+</div>
+<div class="mediathekBorder"> </div>
+<div class="mediathekSuchParameter">
+<h3>Suche nach:</h3>
+<p>
+        Wahlperiode: 18,         Sitzung: 106 </p>
+<h3 class="left">Sortierung:</h3>
+<form action="?" id="mediathekPlenarSortierung">
+<input name="instance" type="hidden" value="m187"/>
+<input name="action" type="hidden" value="search"/>
+<input name="mask" type="hidden" value="search"/>
+<input name="contentArea" type="hidden" value="common"/>
+<input name="extendedSearch" type="hidden" value="true"/>
+<input name="searchword" type="hidden" value=""/>
+<input name="discourser" type="hidden" value=""/>
+<input name="forename" type="hidden" value=""/>
+<input name="top" type="hidden" value=""/>
+<input name="startDate" type="hidden" value=""/>
+<input name="endDate" type="hidden" value=""/>
+<input name="policyField" type="hidden" value=""/>
+<input name="fraction" type="hidden" value=""/>
+<input name="legislativePeriod" type="hidden" value="18"/>
+<input name="conference" type="hidden" value="106"/>
+<input name="categorie" type="hidden" value="Plenarsitzung"/>
+<input name="parentId" type="hidden" value=""/>
+<input checked="checked" id="radio_zeitaufsteigend" name="sortKey" type="radio" value="zeitaufsteigend"/>
+<label for="radio_zeitaufsteigend">Zeit aufsteigend</label>
+<input id="radio_zeitabsteigend" name="sortKey" type="radio" value="zeitabsteigend"/>
+<label for="radio_zeitabsteigend">Zeit absteigend</label>
+<input id="radio_sortKeyName" name="sortKey" type="radio" value="name"/>
+<label for="radio_sortKeyName">Name</label>
+<input id="radio_sortKeyFraktionname" name="sortKey" type="radio" value="fraktionname"/>
+<label for="radio_sortKeyFraktionname">Fraktion und Name</label>
+<input id="radio_sortKeyFraktiondatum" name="sortKey" type="radio" value="fraktiondatum"/>
+<label for="radio_sortKeyFraktiondatum">Fraktion und Datum/Zeit</label>
+<noscript><input class="mediathekSortieren" type="submit" value="Sortieren"/></noscript>
+</form>
+</div>
+<br class="clear"/>
+<div class="mediathekBorder"> </div>
+<div class="mediathekSchattenOben"> </div>
+<!-- urlparams: instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search -->
+<div id="mediathekCommon">
+<div class="mediathekPlenarErgebnisse">
+<div class="first mediathekPlenarItem">
+<div class="mediathekPlenarImg"><p class="keinAbstand"><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111889&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search"> Video<span class="hidden">18. Wahlperiode   | 09:00:18 Uhr | Dauer: 13:59:33</span></a></p></div>
+<div class="mediathekPlenarText">
+<h2><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111889&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search">106. Sitzung vom 21.05.2015</a></h2>
+<p>18. Wahlperiode   | 09:00:18 Uhr | Dauer: 13:59:33</p>
+<div class="mediathekLinkBox mediathekLinkBoxLinks">
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastRightView linkPodcast" href="">Podcast</a>
+<div class="mediathekConfirm mediathekConfirmSmallFlip none">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5111889" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> </li>
+<li class="mp4"><a class="download" href="?id=5111889&amp;offsetStart=0&amp;contentArea=details&amp;action=search&amp;mask=search&amp;downloadConfirm=true#mediathekCookieJava">Download<span class="hidden">18. Wahlperiode   | 09:00:18 Uhr | Dauer: 13:59:33</span></a></li>
+<li><a class="linkGeneric" href="http://dipbt.bundestag.de/dip21/btp/18/18106.pdf#P.10033" target="_blank" title="Link zur PDF-Version des Plenarprotokolls öffnet sich in neuem Fenster">Fundstelle im Plenarprotokoll<span class="hidden">18. Wahlperiode   | 09:00:18 Uhr | Dauer: 13:59:33</span></a></li>
+<li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a></li> <li class="last"><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="top_data_5111889">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111889/5111889_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111889/5111889_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111889/5111889_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+</div>
+<div class="mediathekLinkBox mediathekLinkBoxRechts">
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="http://dbtg.tv/fvid/5111889" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5111889">Permalink: <br/>http://dbtg.tv/fvid/5111889<span class="hidden">18. Wahlperiode   | 09:00:18 Uhr | Dauer: 13:59:33</span></a></li>
+</ul>
+</div>
+<br class="clear"/>
+</div>
+</div>
+<br class="clear"/>
+<div class="mediathekPlenarItem">
+<div class="mediathekPlenarImgTop"><p class="keinAbstand"><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111890&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search"> Video<span class="hidden">106. Sitzung vom 21.05.2015  | 09:00:18 Uhr | Dauer: 00:03:00</span></a></p></div>
+<div class="mediathekPlenarTextTop">
+<h2><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111890&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search">TOP Sitzungseröffnung </a></h2>
+<p>106. Sitzung vom 21.05.2015  | 09:00:18 Uhr | Dauer: 00:03:00</p>
+<div class="mediathekLinkBox mediathekLinkBoxLinks">
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastRightView linkPodcast" href="">Podcast</a>
+<div class="mediathekConfirm mediathekConfirmSmallFlip none">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5111890" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> </li>
+<li class="mp4"><a class="download" href="?id=5111890&amp;offsetStart=0&amp;contentArea=details&amp;action=search&amp;mask=search&amp;downloadConfirm=true#mediathekCookieJava">Download<span class="hidden">106. Sitzung vom 21.05.2015  | 09:00:18 Uhr | Dauer: 00:03:00</span></a></li>
+<li><a class="linkGeneric" href="http://dipbt.bundestag.de/dip21/btp/18/18106.pdf#P.10051" target="_blank" title="Link zur PDF-Version des Plenarprotokolls öffnet sich in neuem Fenster">Fundstelle im Plenarprotokoll<span class="hidden">106. Sitzung vom 21.05.2015  | 09:00:18 Uhr | Dauer: 00:03:00</span></a></li>
+<li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a></li> <li class="last"><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="top_data_5111890">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111890/5111890_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111890/5111890_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111890/5111890_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+</div>
+<div class="mediathekLinkBox mediathekLinkBoxRechts">
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="http://dbtg.tv/fvid/5111890" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5111890">Permalink: <br/>http://dbtg.tv/fvid/5111890<span class="hidden">106. Sitzung vom 21.05.2015  | 09:00:18 Uhr | Dauer: 00:03:00</span></a></li>
+</ul>
+</div>
+<br class="clear"/>
+</div>
+</div>
+<br class="clear"/>
+<div class="mediathekPlenarItem">
+<div class="mediathekPlenarImgTop"><p class="keinAbstand"><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111891&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search"> Video<span class="hidden">106. Sitzung vom 21.05.2015  | 09:03:18 Uhr | Dauer: 00:03:04</span></a></p></div>
+<div class="mediathekPlenarTextTop">
+<h2><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111891&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search">TOP 4 Eidesleistung des Wehrbeauftragten</a></h2>
+<p>106. Sitzung vom 21.05.2015  | 09:03:18 Uhr | Dauer: 00:03:04</p>
+<div class="mediathekLinkBox mediathekLinkBoxLinks">
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastRightView linkPodcast" href="">Podcast</a>
+<div class="mediathekConfirm mediathekConfirmSmallFlip none">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5111891" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> </li>
+<li class="mp4"><a class="download" href="?id=5111891&amp;offsetStart=0&amp;contentArea=details&amp;action=search&amp;mask=search&amp;downloadConfirm=true#mediathekCookieJava">Download<span class="hidden">106. Sitzung vom 21.05.2015  | 09:03:18 Uhr | Dauer: 00:03:04</span></a></li>
+<li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a></li> <li class="last"><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="top_data_5111891">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111891/5111891_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111891/5111891_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111891/5111891_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+</div>
+<div class="mediathekLinkBox mediathekLinkBoxRechts">
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="http://dbtg.tv/fvid/5111891" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5111891">Permalink: <br/>http://dbtg.tv/fvid/5111891<span class="hidden">106. Sitzung vom 21.05.2015  | 09:03:18 Uhr | Dauer: 00:03:04</span></a></li>
+</ul>
+</div>
+<br class="clear"/>
+</div>
+</div>
+<br class="clear"/>
+<div class="mediathekPlenarItem">
+<div class="mediathekPlenarImgTop"><p class="keinAbstand"><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111892&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search"> Video<span class="hidden">106. Sitzung vom 21.05.2015  | 09:06:22 Uhr | Dauer: 02:13:42</span></a></p></div>
+<div class="mediathekPlenarTextTop">
+<h2><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5111892&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search">TOP 5 Regierungserklärung zu Gipfeln Östliche Partnerschaft, G7- sowie EU-CELAC</a></h2>
+<p>106. Sitzung vom 21.05.2015  | 09:06:22 Uhr | Dauer: 02:13:42</p>
+<div class="mediathekLinkBox mediathekLinkBoxLinks">
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastRightView linkPodcast" href="">Podcast</a>
+<div class="mediathekConfirm mediathekConfirmSmallFlip none">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5111892" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> </li>
+<li class="mp4"><a class="download" href="?id=5111892&amp;offsetStart=0&amp;contentArea=details&amp;action=search&amp;mask=search&amp;downloadConfirm=true#mediathekCookieJava">Download<span class="hidden">106. Sitzung vom 21.05.2015  | 09:06:22 Uhr | Dauer: 02:13:42</span></a></li>
+<li><a class="linkGeneric" href="http://dipbt.bundestag.de/dip21/btp/18/18106.pdf#P.10035" target="_blank" title="Link zur PDF-Version des Plenarprotokolls öffnet sich in neuem Fenster">Fundstelle im Plenarprotokoll<span class="hidden">106. Sitzung vom 21.05.2015  | 09:06:22 Uhr | Dauer: 02:13:42</span></a></li>
+<li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a></li> <li class="last"><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="top_data_5111892">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111892/5111892_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111892/5111892_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5111892/5111892_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+</div>
+<div class="mediathekLinkBox mediathekLinkBoxRechts">
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="http://dbtg.tv/fvid/5111892" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5111892">Permalink: <br/>http://dbtg.tv/fvid/5111892<span class="hidden">106. Sitzung vom 21.05.2015  | 09:06:22 Uhr | Dauer: 02:13:42</span></a></li>
+</ul>
+</div>
+<br class="clear"/>
+<div class="rednerListeWrap">
+<a class="rednerListe" href="?speakerItem=5111892&amp;offsetStart=0&amp;contentArea=details&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;action=search">Alle Redner zu diesem Tagesordnungspunkt</a>
+<div class="children" id="sp5111892">
+</div>
+</div>
+</div>
+</div>
+<br class="clear"/>
+<div class="mediathekPlenarItem">
+<div class="mediathekPlenarImgTop"><p class="keinAbstand"><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5114084&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search"> Video<span class="hidden">106. Sitzung vom 21.05.2015  | 11:20:04 Uhr | Dauer: 01:46:08</span></a></p></div>
+<div class="mediathekPlenarTextTop">
+<h2><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5114084&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search">TOP 6 Leiharbeit und Werkverträge</a></h2>
+<p>106. Sitzung vom 21.05.2015  | 11:20:04 Uhr | Dauer: 01:46:08</p>
+<div class="mediathekLinkBox mediathekLinkBoxLinks">
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastRightView linkPodcast" href="">Podcast</a>
+<div class="mediathekConfirm mediathekConfirmSmallFlip none">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5114084" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> </li>
+<li class="mp4"><a class="download" href="?id=5114084&amp;offsetStart=0&amp;contentArea=details&amp;action=search&amp;mask=search&amp;downloadConfirm=true#mediathekCookieJava">Download<span class="hidden">106. Sitzung vom 21.05.2015  | 11:20:04 Uhr | Dauer: 01:46:08</span></a></li>
+<li><a class="linkGeneric" href="http://dipbt.bundestag.de/dip21/btp/18/18106.pdf#P.10058" target="_blank" title="Link zur PDF-Version des Plenarprotokolls öffnet sich in neuem Fenster">Fundstelle im Plenarprotokoll<span class="hidden">106. Sitzung vom 21.05.2015  | 11:20:04 Uhr | Dauer: 01:46:08</span></a></li>
+<li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a></li> <li class="last"><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="top_data_5114084">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5114084/5114084_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5114084/5114084_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5114084/5114084_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+</div>
+<div class="mediathekLinkBox mediathekLinkBoxRechts">
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="http://dbtg.tv/fvid/5114084" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5114084">Permalink: <br/>http://dbtg.tv/fvid/5114084<span class="hidden">106. Sitzung vom 21.05.2015  | 11:20:04 Uhr | Dauer: 01:46:08</span></a></li>
+</ul>
+</div>
+<br class="clear"/>
+<div class="rednerListeWrap">
+<a class="rednerListe" href="?speakerItem=5114084&amp;offsetStart=0&amp;contentArea=details&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;action=search">Alle Redner zu diesem Tagesordnungspunkt</a>
+<div class="children" id="sp5114084">
+</div>
+</div>
+</div>
+</div>
+<br class="clear"/>
+<div class="mediathekPlenarItem">
+<div class="mediathekPlenarImgTop"><p class="keinAbstand"><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5114345&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search"> Video<span class="hidden">106. Sitzung vom 21.05.2015  | 13:06:12 Uhr | Dauer: 01:12:34</span></a></p></div>
+<div class="mediathekPlenarTextTop">
+<h2><a href="?isLinkCallPlenar=1&amp;action=search&amp;contentArea=details&amp;ids=5114345&amp;instance=m187&amp;categorie=Plenarsitzung&amp;mask=search">TOP 7 Berufliche und akademische Bildung</a></h2>
+<p>106. Sitzung vom 21.05.2015  | 13:06:12 Uhr | Dauer: 01:12:34</p>
+<div class="mediathekLinkBox mediathekLinkBoxLinks">
+<ul class="mediathekInteraktLinks">
+<li>
+<a class="podcastRightView linkPodcast" href="">Podcast</a>
+<div class="mediathekConfirm mediathekConfirmSmallFlip none">
+<div class="confirmContent">
+<h3 class="bigger noMargin">Podcast abonnieren</h3>
+<div class="aboListe aboListeRss">
+<h4>RSS-Podcast abonnieren</h4>
+<ul> <li><a class="kurzUrl" href="http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">RSS-Feed der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+<div class="aboListe aboListeiTunes">
+<h4>Abonnieren im iTunes-Store</h4>
+<ul>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/auswahl.xml?contentIds=5114345" target="_new">Dieses Video aus iTunes laden</a></li>
+<li><a class="kurzUrl" href="itpc://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml" target="_new">iTunes-Podcast der Kategorie 'Plenarsitzungen' abonnieren </a></li>
+</ul>
+</div>
+</div>
+<br class="clear"/>
+<div class="confirmFooter"> </div>
+<div class="confirmClose">
+<p><a class="closeButton" href="javascript:void(0);"><span class="hidden">Schließen</span></a></p>
+</div>
+</div> </li>
+<li class="mp4"><a class="download" href="?id=5114345&amp;offsetStart=0&amp;contentArea=details&amp;action=search&amp;mask=search&amp;downloadConfirm=true#mediathekCookieJava">Download<span class="hidden">106. Sitzung vom 21.05.2015  | 13:06:12 Uhr | Dauer: 01:12:34</span></a></li>
+<li><a class="linkGeneric" href="http://dipbt.bundestag.de/dip21/btp/18/18106.pdf#P.10080" target="_blank" title="Link zur PDF-Version des Plenarprotokolls öffnet sich in neuem Fenster">Fundstelle im Plenarprotokoll<span class="hidden">106. Sitzung vom 21.05.2015  | 13:06:12 Uhr | Dauer: 01:12:34</span></a></li>
+<li><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_de.pdf" target="_new" title="">Nutzungsbedingungen</a></li> <li class="last"><a class="kurzUrl" href="/static/appdata/mediathek/Nutzungsbedingungen_en.pdf" target="_new" title="">Conditions of use</a></li>
+</ul>
+<form action="javascript:void(0);" class="hidden" id="top_data_5114345">
+<input name="data-downloadMonoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5114345/5114345_mp3_32kb_mono_de_32.mp3?fdl=1"/>
+<input name="data-downloadStereoUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5114345/5114345_mp3_128kb_stereo_de_128.mp3?fdl=1"/>
+<input name="data-downloadUrl" type="hidden" value="http://static.cdn.streamfarm.net/1000153copo/ondemand/145293313/5114345/5114345_h264_720_400_2000kb_baseline_de_2192.mp4?fdl=1"/>
+</form>
+</div>
+<div class="mediathekLinkBox mediathekLinkBoxRechts">
+<ul class="mediathekInteraktLinks"><li><a class="kurzUrl" href="http://dbtg.tv/fvid/5114345" title="Permanente Internetadresse des Videos  : http://dbtg.tv/fvid/5114345">Permalink: <br/>http://dbtg.tv/fvid/5114345<span class="hidden">106. Sitzung vom 21.05.2015  | 13:06:12 Uhr | Dauer: 01:12:34</span></a></li>
+</ul>
+</div>
+<br class="clear"/>
+<div class="rednerListeWrap">
+<a class="rednerListe" href="?speakerItem=5114345&amp;offsetStart=0&amp;contentArea=details&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;action=search">Alle Redner zu diesem Tagesordnungspunkt</a>
+<div class="children" id="sp5114345">
+</div>
+</div>
+</div>
+</div>
+<br class="clear"/>
+<div class="mediathekPlenarItem"> </div>
+</div>
+<div class="mediathekBorder"> </div>
+<div class="mediathekFooter">
+<!-- urlParams: instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search -->
+<div class="mediathekFooterZurueck">
+<div class="mediathekAnfang"> <img alt="" src="http://www.bundestag.de/static/appdata/includes/images/mediathek/navi_anfang_inaktiv"/>
+</div>
+<div class="mediathekZurueck"> <!-- generatePagePrevious 0 6 27 -->
+<!-- startValue: -6 -->
+<img alt="" src="http://www.bundestag.de/static/appdata/includes/images/mediathek/navi_zurueck_inaktiv"/>
+</div>
+</div>
+<div class="mediathekFooterNavi">
+<p class="keinAbstand">
+<span class="mediathekZaehler">6 von 27 Videos</span>
+<span class="hidden">Seite </span><span>1</span>
+<a href="?action=search&amp;offsetStart=6&amp;offsetLength=6&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;contentArea=common"><span class="hidden">Seite </span>2</a>
+<a href="?action=search&amp;offsetStart=12&amp;offsetLength=6&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;contentArea=common"><span class="hidden">Seite </span>3</a>
+<a href="?action=search&amp;offsetStart=18&amp;offsetLength=6&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;contentArea=common"><span class="hidden">Seite </span>4</a>
+<a href="?action=search&amp;offsetStart=24&amp;offsetLength=6&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;contentArea=common"><span class="hidden">Seite </span>5</a>
+</p>
+</div>
+<div class="mediathekFooterWeiter">
+<div class="mediathekWeiter"> <!-- 6 < 27 -->
+<a href="?action=search&amp;offsetStart=6&amp;offsetLength=6&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;contentArea=common#results" title="Ergebnisliste weiter">
+<img alt="Ergebnisliste weiter" src="http://www.bundestag.de/static/appdata/includes/images/mediathek/navi_weiter"/>
+</a>
+</div>
+<div class="mediathekEnde"> <!-- generatePageEnd 0  6 27 -->
+<!-- 0 < 24 -->
+<a href="?action=search&amp;offsetStart=24&amp;instance=m187&amp;categorie=Plenarsitzung&amp;legislativePeriod=18&amp;conference=106&amp;sortKey=zeitaufsteigend&amp;mask=search&amp;contentArea=common#results" title="Ergebnisliste Ende">
+<img alt="Ergebnisliste Ende " src="http://www.bundestag.de/static/appdata/includes/images/mediathek/navi_ende"/>
+</a>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+System.addConfiguration("json",{"configuration":{"unsupportedUserAgents": {"userAgent": [{"browserName": "Explorer","browserVersion": 6}]},"components":{"component":[{
+  "object": "com.babiel.bundestag.application.MediathekComponent",
+  "constructorArg": [
+    {
+      "index": 0,
+      "value": "#mediathek"
+    },
+    {
+      "index": 1,
+      "value": {
+        "buttonsSelector" : ".mediathekFooter a",
+        "buttonsForViewPortSelector" : "",
+        "categorySortEventSelector" : "#mediathekPlenarSortierung input:radio",
+        "categorySortFormSelector" : "#mediathekPlenarSortierung",
+        "copyCodeButtonSelector" : "#copyCode",
+        "copyCodeTextBoxSelector" : ".mediathekKopieBox",
+        "copyCodeTextSelector" : ".mediathekKopie textarea",        
+        "moreInfoButtonSelector" : ".mediathekVideoText .linkAufklappen",
+        "moreInfoButtonClassNameClosed" : "linkZuklappen",
+        "moreInfoButtonClassNameOpen" : "linkAufklappen",
+        "moreInfoButtonTextClosed" : "Artikel minimieren",
+        "moreInfoButtonTextOpen" : "Artikel anzeigen",
+        "showLinkedVideos" : {
+          "selector":".rednerListe",
+          "videoListSelector" : ".children",
+          "requestParameters" : {            
+          "instance" : "m187",
+          "resultsTemplate" : "mediathekSpeaker_xhr",          
+          "type" : "editorial,lucene,lucene",          
+          "datasource" : "/videos/index.xml,/cms_videos/index,/fais_videos/index",
+          "offsetStart" : 0
+          }
+        },
+        "moreInfoContentSelector" : ".mediathekVideoText .more",
+        "mediathekDefaultRedirectPage" : "?",
+        "requestParameters" : {
+          "instance" : "m187",
+          "resultsTemplate" : "mediathek_plenarsitzung_xhr",
+          "searchTemplate" : "mediathek",
+          "type" : "editorial,lucene,lucene",
+          "datasource" : "/videos/index.xml,/cms_videos/index,/fais_videos/index"
+        },        
+        "requestUrl" : "/apps/mediathek/mediathek.form",
+        "videoViewPortSelector" : "#mediathek"
+      }
+    }
+  ],
+  "property": [
+    {
+      "name": "classesToRemove",
+      "value": {
+        ".mediathekKopie a": "none",
+        ".mediathekVideoText .linkAufklappen": "none"
+      }
+    },
+    {
+      "name": "logger",
+      "ref": "componentLog"
+    }
+  ]
+}]}}});
+</script>
+</div> <!-- mediathekHeader wird in Velocity geschlossen -->
+</div>
+<br class="clear"/>
+</div></div></div>
+</div>
+</div>
+<br class="clear"/><div id="footerLinks">
+<div class="content">
+<div class="links">
+<ul>
+<li><a href="/impressum" title="Impressum">Impressum</a>|</li><li><a href="/service/datenschutz" title="Datenschutz">Datenschutz</a></li></ul>
+</div>
+<div class="rechts"><p class="keinAbstand"><a class="seitenanfang" href="#top">Seitenanfang</a></p></div>
+<br class="clear"/>
+<div class="linie"> </div>
+<div class="service">
+<ul>
+<li><a class="lesezeichen none" href="javascript:void(0)">Lesezeichen</a></li>
+<li>
+<a class="empfehlen" href="/blueprint/servlet/page/bt/service/empfehlen?siteid=271192&amp;link=/mediathek/">Seite empfehlen</a>
+</li>
+<li><a class="drucken_bilder none" href="javascript:void(0)">Drucken mit Bildern</a></li>
+<li><a class="drucken none" href="javascript:void(0)">Drucken ohne Bilder</a></li>
+</ul>
+</div>
+</div>
+<div class="zierRechts"> </div>
+</div>
+<br class="clear"/>
+<div id="footer">
+<div class="content">
+<div><p class="keinAbstand">© Deutscher Bundestag</p></div>
+</div>
+<div class="zierRechts"> </div>
+</div>
+</div>
+</div>
+<div id="printFooter">
+<br class="clear"/>
+<hr/>
+<br class="clear"/>
+<div class="standardBox">
+<p>Ausdruck aus dem Internet-Angebot des Deutschen Bundestages<br/>
+      /mediathek<br/>
+             Stand: 07.06.2015</p>
+</div>
+</div>
+<!-- s160114.rz.babiel.com -->
+</body>
+</html>

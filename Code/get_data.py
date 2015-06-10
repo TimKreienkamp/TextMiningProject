@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import re
 import requests
@@ -29,20 +30,28 @@ def get_text_and_agenda_items(sitting, url ):
     
     content = result.content
     encoding = chardet.detect(content)['encoding']
-    if encoding != 'utf-8':
-        content = content.decode(encoding).encode('utf8')
-        
-    #### in this block the entire content is searched for the agenda items
+    #if encoding != 'utf-8':
+    #    content = content.decode(encoding).encode('utf8')
+    content = content.decode("ISO-8859-2")
+    #### in this block the document block before the protocol is searched for the agenda items
     ### top = German abbreviation for "TagesOrdnungsPunkt" == agenda item
+    sitting = str(sitting) + ". Sitzung"
+    sitting = sitting.decode('utf-8')
+    #sitting.encode('utf-8')
+    begin_document = re.search(sitting, content).end()
+    begin_protocol = re.search(r"Beginn: (.*?) Uhr", content[begin_document::]).end()+begin_document
+    index = content[begin_document:begin_protocol]
     
-    tops = re.findall(r"Tagesordnungspunkt " + "[0-9]\s", content)
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]\s", content))
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]" + " " + "[a-z]\s" , content))
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]" + " " + "[a-z]\s" , content))
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]" + " " + "[a-z]:" , content))
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]" + " " + "[a-z]:" , content))
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]" + " " + "[a-z]:" , content))
-    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]" + " " + "[a-z]:" , content))
+    
+    tops = re.findall(r"Tagesordnungspunkt " + "[0-9]:", index)
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]:", index))
+    
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]" + " " + "[a-z]:" , index))
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]" + " " + "[a-z]:" , index))
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]" + " " + "[a-z]:" , index))
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]" + " " + "[a-z]:" , index))
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]" + " " + "[a-z]:" , index))
+    tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9][0-9]" + " " + "[a-z]:" , index))
     tops.extend(re.findall(r"Tagesordnungspunkt " + "[0-9]:" , content))
     tops = set(tops)
     tops = list(tops)
@@ -50,9 +59,7 @@ def get_text_and_agenda_items(sitting, url ):
         tops[i] = tops[i][:-1]
         
     #### now we look for the beginning of the document and protocol   
-    sitting = str(sitting) + ". Sitzung"
-    begin_document = re.search(sitting, content).end()
-    begin_protocol = re.search(r"Beginn: (.*?) Uhr", content[begin_document::]).end()+begin_document
+    
     if re.search(r"Schluss: (.*?) Uhr", content[begin_document::]) != None:
         end_protocol = re.search(r"Schluss: (.*?) Uhr", content[begin_document::]).start()+begin_document
     elif re.search(r"Sitzung ist geschlossen", content[begin_document::]) != None:
@@ -65,7 +72,9 @@ def get_text_and_agenda_items(sitting, url ):
     begin_tops = []
     ### now we look for the beginning of the discussion for each top
     for top in tops:
+        top = top.encode('utf-8')
         begin_top = re.search(top + ".*?" + ":\r\n" , protocol)
+        
         if begin_top != None:
             begin_top = re.search(top + ".*?" + ":\r\n" , protocol).end()
         begin_tops.append(begin_top)
@@ -77,7 +86,32 @@ def get_text_and_agenda_items(sitting, url ):
     tops_frame = tops_frame.drop_duplicates(subset = 'beginning')
     tops_frame.iloc[:,1] = tops_frame.iloc[:,1].astype(int)
     # return the actual protocol and the dataframe with the beginning of the tops
-    return tops_frame, protocol
+    return tops_frame, protocol, index
+
+def find_speakers_tops(tops_frame, index, mps_frame):
+    speakers = []
+    parties = []
+    positions = []
+    tops = []
+    for i in range(0, len(tops_frame.iloc[:,0])-1):
+        top = tops_frame.iloc[i,0]
+        next_top = tops_frame.iloc[i+1,0]
+        start = re.search(top, index).end()
+        end = re.search(next_top, index).start()
+        for j in range(0, mps_frame.shape[0]):
+            full_name = mps_frame.iloc[j,1]
+            party = mps_frame.iloc[j,3]
+            if re.search(full_name + ".*?" + "\r\n", index[start:end]) and full_name not in admin_staff :
+                speakers.append(full_name)
+                parties.append(party)
+                position = re.search(full_name + ".*?" + "\r\n", index[start:end]).start()+start
+                positions.append(position)
+                tops.append(top)
+    speakers_tops = pd.DataFrame({"speaker":speakers, "party":parties, "top":tops, "position":positions})
+    speakers_tops = speakers_tops.sort('position')
+    return speakers_tops
+    
+    
 
 
 def find_beginnings(tops_frame, mps_frame):
@@ -160,6 +194,7 @@ def get_mps():
             first_name = first_name[1::]
             
             full_name = first_name + last_name
+            full_name = full_name.strip()
             party = mp.split(',')[2]
             #keep raw for debugging
             mps.append(mp)
@@ -176,10 +211,14 @@ def find_speeches(begin_speeches_mps, admin_staff, protocol, sitting):
     speeches = []
     speakers = []
     parties = []
+    
+    
     for i in range(0, begin_speeches_mps.shape[0]-1):
         speech = ""
+        speech = speech.encode('utf-8')
         snippet = protocol[begin_speeches_mps.iloc[i,0]:begin_speeches_mps.iloc[i+1,0]]
         speaker = begin_speeches_mps[["speaker"]].iloc[i,0]
+        speaker = speaker.encode('utf-8')
         if speaker in admin_staff:
             break
         party = begin_speeches_mps[["party"]].iloc[i,0]
@@ -199,10 +238,11 @@ def find_speeches(begin_speeches_mps, admin_staff, protocol, sitting):
             terminal_condition = False
             append_paragraph = False 
             for admin in admin_staff:
-                if  re.match(admin, paragraphs[i]) != None and re.match(".*?" + speaker, paragraphs[i+1]) == None and re.match(".*?" + speaker, paragraphs[i+k-1]) == None and re.match(".*?" + speaker, paragraphs[i+3]) == None:
+                print admin
+                if  re.search(admin, paragraphs[i][0:(min(60, len(paragraphs[i])))]) != None and re.match(".*?" + speaker, paragraphs[i+1]) == None and re.match(".*?" + speaker, paragraphs[i+k-1]) == None and re.match(".*?" + speaker, paragraphs[i+3]) == None:
                     terminal_condition = True
                     break
-                elif re.match(admin, paragraphs[i]) and i == len(paragraphs)-k:
+                elif re.search(admin, paragraphs[i][0:(min(60, len(paragraphs[i])))]) != None and i == len(paragraphs)-k:
                     terminal_condition = True
                     break
                 elif re.match(admin, paragraphs[i]) and re.match(".*?" + speaker, paragraphs[i+1]) != None:
@@ -213,7 +253,7 @@ def find_speeches(begin_speeches_mps, admin_staff, protocol, sitting):
                     append_paragraph = False
                     break
             if terminal_condition == False and append_paragraph == True:
-                speech = speech + paragraphs[i]
+                speech = speech + " " + paragraphs[i]
             elif terminal_condition == True :
                 break
         
@@ -230,6 +270,14 @@ admin_staff = ["Präsident Dr. Norbert Lammert", "Vizepräsidentin Ulla Schmidt"
                "Vizepräsident Johannes Singhammer", 
                "Vizepräsidentin Edelgard Bulmahn", 
                "Vizepräsidentin Claudia Roth",
+               "Vizepräsident Peter Hintz", 
+               "Norbert Lammert",
+               "Johannes Singhammer", 
+               "Ulla Schmidt",
+               "Petra Pau",
+               "Edelgard Bulmahn",
+               "Claudia Roth"
+               
                #"Pr\xe4sident Dr. Norbert Lammert",
                #"Vizepr\xe4sidentin Ulla Schmidt", 
                 #"Vizepr\xe4sidentin Petra Pau", 
@@ -238,27 +286,32 @@ admin_staff = ["Präsident Dr. Norbert Lammert", "Vizepräsidentin Ulla Schmidt"
                 #"Vizepr\xe4sidentin Claudia Roth"
              ]  
 
-for admin in admin_staff:
-    admin.encode('UTF-8')
 
-sitting = 2
-url = urls[1]
+
+for i in range(0, len(admin_staff)):
+    admin_staff[i] = admin_staff[i].encode('utf-8')
+
+
+base_url = "https://www.bundestag.de/plenarprotokolle"
+urls, sittings = get_url_list_sittings(base_url)
+
+sitting = 6
+url = urls[5]
 
 mps_frame = get_mps()
 
-tops_frame, protocol = get_text_and_agenda_items(sitting, url)
+tops_frame, protocol, index = get_text_and_agenda_items(sitting, url)
         
 begin_speeches_mps = find_beginnings(tops_frame, mps_frame)
 
 speeches, speech_data = find_speeches(begin_speeches_mps, admin_staff, protocol, sitting)
 
-base_url = "https://www.bundestag.de/plenarprotokolle"
-urls, sittings = get_url_list_sittings(base_url)
+
 
 output = speech_data
 
 
-for i in range(1, len(sittings)):
+for i in range(2, len(sittings)):
         sitting = sittings[i]
         url = urls[i]
         print sitting
@@ -269,4 +322,15 @@ for i in range(1, len(sittings)):
 
         speeches, speech_data = find_speeches(begin_speeches_mps, admin_staff, protocol, sitting)
         output = pd.concat([output, speech_data])
-        
+
+output.to_csv("../data/speech_data.csv", index = False)
+
+for url in urls:
+    content = requests.get(url).content
+    encoding = chardet.detect(content)['encoding']
+    print encoding
+    content
+    
+sums = []
+for i in range(0, tfs.shape[0]):
+    
